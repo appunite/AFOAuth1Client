@@ -139,7 +139,6 @@ static inline NSString * AFHMACSHA1Signature(NSURLRequest *request, NSString *co
 @property (readwrite, nonatomic, copy) NSString *secret;
 @property (readwrite, nonatomic, strong) id applicationLaunchNotificationObserver;
 
-- (NSDictionary *)OAuthParameters;
 - (NSString *)OAuthSignatureForMethod:(NSString *)method
                                  path:(NSString *)path
                            parameters:(NSDictionary *)parameters
